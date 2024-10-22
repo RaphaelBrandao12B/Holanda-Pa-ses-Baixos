@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #005BBB; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #EF3340; 
+}
+
+.hero, .content {
+    text-align: center; /* Alinha o texto ao centro para essas seções */
+    padding: 0; 
+}
+
+/* Centraliza todos os h2 */
+h2 {
+    color: #000000; 
+    text-align: center; /* Centraliza os cabeçalhos h2 */
+}
+
+/* Imagens para seções que ocupam todo o espaço em branco */
+.hero img, .content img {
+    width: 100%; 
+    height: 100vh; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0; 
+    border-radius: 0;
+}
+
+/* Estilo específico para imagens de .Pontos (Pontos Turísticos) */
+.Pontos img {
+    width: 300px; /* Largura média */
+    height: 300px; /* Altura média para formar um quadrado */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    display: block; 
+    margin: 20px auto; /* Centraliza e adiciona espaçamento */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+h1 {
+    color: #000000; 
+    text-align: center; /* Centraliza os cabeçalhos h1 */
+}
+
+p {
+    font-size: 1.1em;
+    color: #151318; 
+    font-family: "Playfair Display", serif;
+    text-align: center; /* Centraliza os parágrafos também, se desejado */
+}
+
+.Pontos h1{
+    font-family: "Bebas Neue", sans-serif;
+}
