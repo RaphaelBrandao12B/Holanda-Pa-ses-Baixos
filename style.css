@@ -1,4 +1,4 @@
-/* Estilo para a página principal */
+
 
 body {
     font-family: "Archivo Black", sans-serif;
@@ -48,7 +48,8 @@ main {
 
 main img {
     max-width: 100%;
-    height: auto;
+    width: 1000px;
+    height: 700px;
     border-radius: 10px;
     margin-top: 20px;
     border: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
