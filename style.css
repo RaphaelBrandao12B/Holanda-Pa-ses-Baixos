@@ -1,28 +1,28 @@
 
 
 body {
-    font-family: "Archivo Black", sans-serif;
-    background-color: #f0f2f5; /* Fundo neutro para destaque nos elementos */
+    font-family: "Lilita One", sans-serif;
+    background-color: #f0f2f5; 
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #21468B; /* Azul escuro da bandeira holandesa */
+    background-color: #21468B; 
     color: white;
     padding: 20px;
     text-align: center;
-    border: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    border: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #A41E22; /* Vermelho da bandeira */
+    background-color: #A41E22; 
     display: flex;
     justify-content: center;
     margin: 0;
-    border: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    border: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 nav ul li {
@@ -37,8 +37,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #21468B; /* Azul ao passar o mouse */
-    color: #fff; /* Branco para contraste */
+    background-color: #21468B; 
+    color: #fff; 
 }
 
 main {
@@ -52,7 +52,7 @@ main img {
     height: 700px;
     border-radius: 10px;
     margin-top: 20px;
-    border: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+    border: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 main p {

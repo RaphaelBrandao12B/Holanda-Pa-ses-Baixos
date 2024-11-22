@@ -2,13 +2,13 @@
 
 body {
     font-family: "Lilita One", sans-serif;
-    background-color: #f3e5f5;
+    background-color: #f0f2f5;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #9c27b0;
+    background-color:#21468B;
     color: white;
     padding: 20px;
     text-align: center;
@@ -17,7 +17,7 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #7b1fa2;
+    background-color: #A41E22;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #9c27b0;
+    background-color: #21468B;
 }
 
 main {
